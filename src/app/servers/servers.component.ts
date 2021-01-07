@@ -10,7 +10,14 @@ export class ServersComponent implements OnInit {
   allowNewServer = false;
   serverCreationStatus = 'No server was created';
   serverName = 'TestServer';
- 
+  serverCreated = false;
+  userName = '';
+  userNameEmpty = true;
+  servers = ['Testserver', 'Testserver 2'];
+
+  StringInterpolation = "Just a way to get data from the TS File. This can be called by having the {{ foo }} in the html code. "
+
+
   constructor() {
     setTimeout(() => {
       this.allowNewServer = true;
@@ -21,6 +28,8 @@ export class ServersComponent implements OnInit {
   }
 
   onCreateServer(){
+    this.serverCreated = true;
+    this.servers.push(this.serverName);
     this.serverCreationStatus = 'Server was created! Name is: ' + this.serverName;
   }
 
