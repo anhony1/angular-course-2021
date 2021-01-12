@@ -16,6 +16,10 @@ import { ShoppingListComponent } from './shopping-list/shopping-list/shopping-li
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 import { HeaderComponent } from './header/header/header.component';
 import { RecipesComponent } from './recipe-book/recipes/recipes.component';
+import { cmpDatabindingComponent } from './cmp-databinding/cmp-databinding.component';
+import { CockpitComponent } from './cockpit/cockpit.component';
+import { ServerElementComponent } from './server-element/server-element.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +35,10 @@ import { RecipesComponent } from './recipe-book/recipes/recipes.component';
     ShoppingListComponent,
     ShoppingListEditComponent,
     HeaderComponent,
-    RecipesComponent
+    RecipesComponent,
+    cmpDatabindingComponent,
+    CockpitComponent,
+    ServerElementComponent
   ],
   imports: [
     BrowserModule,
