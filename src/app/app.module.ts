@@ -19,6 +19,9 @@ import { RecipesComponent } from './recipe-book/recipes/recipes.component';
 import { cmpDatabindingComponent } from './cmp-databinding/cmp-databinding.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
+import { GamecontrolComponent } from './assignment4/gamecontrol/gamecontrol.component';
+import { EvenComponent } from './assignment4/even/even.component';
+import { OddComponent } from './assignment4/odd/odd.component';
 
 
 @NgModule({
@@ -38,7 +41,10 @@ import { ServerElementComponent } from './server-element/server-element.componen
     RecipesComponent,
     cmpDatabindingComponent,
     CockpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+    GamecontrolComponent,
+    EvenComponent,
+    OddComponent
   ],
   imports: [
     BrowserModule,
@@ -49,4 +55,4 @@ import { ServerElementComponent } from './server-element/server-element.componen
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
