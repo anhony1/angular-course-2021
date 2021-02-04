@@ -22,6 +22,7 @@ import { ServerElementComponent } from './server-element/server-element.componen
 import { GamecontrolComponent } from './assignment4/gamecontrol/gamecontrol.component';
 import { EvenComponent } from './assignment4/even/even.component';
 import { OddComponent } from './assignment4/odd/odd.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { OddComponent } from './assignment4/odd/odd.component';
     ServerElementComponent,
     GamecontrolComponent,
     EvenComponent,
-    OddComponent
+    OddComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
